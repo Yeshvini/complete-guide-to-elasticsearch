@@ -1,0 +1,5 @@
+D:\Training\ELK>
+curl -H "Content-Type: application/json" -XPUT "http://192.168.40.59:9200/receipe/receipe2/_bulk?pretty" --data-binary "@receipe.json"
+
+1 -receipe : index name
+2 - @receipe.json - data file
